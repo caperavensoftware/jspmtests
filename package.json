@@ -1,0 +1,18 @@
+{
+  "jspm": {
+    "dependencies": {
+      "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^1.0.1",
+      "aurelia-framework": "npm:aurelia-framework@^1.0.7",
+      "pragma-tabsheet": "github:caperavensoftware/pragma-tabsheet@master"
+    }
+  },
+  "scripts": {
+    "audit": "gulp clean:coverage && gulp audit:all && gulp test:coverage && gulp build:all && gulp test:e2e && gulp test:generate-report && gulp serve:coverage-report",
+    "test": "gulp test",
+    "test:ui": "gulp build:all && gulp test:e2e",
+    "build": "gulp build:all",
+    "watch:ui": "gulp build:all && gulp watch:ui",
+    "watch:all": "gulp build:all && gulp watch:all",
+    "run": "gulp build:all && gulp serve"
+  }
+}

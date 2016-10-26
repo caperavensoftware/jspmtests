@@ -1,1 +1,23 @@
 @import './normalize';
+
+.screen-body {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+pragma-tabsheet {
+  flex: 1;
+}
+
+[aria-hidden="true"] {
+  display:none;
+}
+
+[aria-hidden="false"] {
+  display:block;
+}

@@ -1,5 +1,6 @@
 {
   "jspm": {
+    "format": "amd",
     "dependencies": {
       "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^1.0.1",
       "aurelia-framework": "npm:aurelia-framework@^1.0.7",
@@ -19,6 +20,6 @@
     "run": "gulp build:all && gulp serve"
   },
   "devDependencies": {
-    "build-utilities": "0.0.100"
+    "build-utilities": "0.0.101"
   }
 }

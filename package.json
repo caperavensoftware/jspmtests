@@ -3,8 +3,11 @@
     "dependencies": {
       "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^1.0.1",
       "aurelia-framework": "npm:aurelia-framework@^1.0.7",
+      "caperavensoftware/pragma-tabsheet": "github:caperavensoftware/pragma-tabsheet@master",
+      "pragma-tabhseet": "github:caperavensoftware/pragma-tabsheet@master",
       "pragma-tabsheet": "github:caperavensoftware/pragma-tabsheet@master"
-    }
+    },
+    "devDependencies": {}
   },
   "scripts": {
     "audit": "gulp clean:coverage && gulp audit:all && gulp test:coverage && gulp build:all && gulp test:e2e && gulp test:generate-report && gulp serve:coverage-report",

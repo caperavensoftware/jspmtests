@@ -94,6 +94,10 @@ System.config({
     "aurelia-bootstrapper": "npm:aurelia-bootstrapper@1.0.1",
     "aurelia-framework": "npm:aurelia-framework@1.0.7",
     "pragma-tabsheet": "github:caperavensoftware/pragma-tabsheet@master",
+    "github:caperavensoftware/pragma-tabsheet@master": {
+      "aurelia-bootstrapper": "npm:aurelia-bootstrapper@1.0.1",
+      "aurelia-framework": "npm:aurelia-framework@1.0.7"
+    },
     "npm:aurelia-binding@1.0.9": {
       "aurelia-logging": "npm:aurelia-logging@1.1.0",
       "aurelia-metadata": "npm:aurelia-metadata@1.0.2",
